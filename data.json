@@ -1,0 +1,105 @@
+[
+    {
+        "id": "1",
+        "nombre": "Zapatillas",
+        "talles": [
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10"
+        ],
+        "precio": 15000,
+        "imagen": "./img/zapatillas.webp"
+    },
+    {
+        "id": "12",
+        "nombre": "Zapatillas",
+        "talles": [
+            "8",
+            "8.5",
+            "9",
+            "9.5",
+            "10"
+        ],
+        "precio": 15000,
+        "imagen": "./img/zapatillasrosas.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Campera",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 10000,
+        "imagen": "./img/campera.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Jogging",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 4000,
+        "imagen": "./img/jogging.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Jogging",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 3500,
+        "imagen": "./img/jogginggris.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Short",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 2500,
+        "imagen": "./img/short.jpg"
+    },
+    {
+        "id": "7",
+        "nombre": "Remera",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 4000,
+        "imagen": "./img/remeranegra.jpg"
+    },
+    {
+        "id": "8",
+        "nombre": "Remera",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 4000,
+        "imagen": "./img/remerarosa.webp"
+    },
+    {
+        "id": "9",
+        "nombre": "Remera",
+        "talles": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "precio": 4000,
+        "imagen": "./img/remeraverde.jpg"
+    }
+]

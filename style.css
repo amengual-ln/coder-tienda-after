@@ -1,0 +1,141 @@
+html,
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header nav li {
+    list-style: none;
+}
+
+.header nav li a {
+    text-decoration: none;
+}
+
+#productos,
+#carrito,
+#finCompra {
+    min-height: calc(100vh - 200px);
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.grid-carrito {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 40px;
+}
+
+
+#carrito {
+    grid-column: 2/5;
+}
+
+#resumen {
+    grid-column: 5/6;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.producto img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.producto-carrito {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.producto-carrito img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.formCompra {
+    width: 480px;
+}
+
+.formCompra input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.formCompra button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.flip {
+    transform: rotate(180deg);
+}

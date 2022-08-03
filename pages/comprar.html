@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>After - JS 38205</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1><a href="/"><img src="../img/atras.svg" alt="<" class="flip"> </a>Finalizar compra</h1>
+    </header>
+
+    <section id="finCompra" class="flex center">
+        <form class="formCompra flex flex-column">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <label for="tarjeta">Nro. tarjeta</label>
+            <input type="text" id="tarjeta" placeholder="Nro. tarjeta">
+            <label for="vencimiento">Fecha de vencimiento</label>
+            <input type="text" id="vencimiento" placeholder="Fecha de vencimiento">
+            <label for="codigo">Código de seguridad</label>
+            <input type="text" id="codigo" placeholder="Código de seguridad">
+            <button type="submit" id="confirmarCompra">Confirmar</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="../js/cleave.js"></script>
+    <script src="../js/comprar.js"></script>
+</body>
+
+</html>
