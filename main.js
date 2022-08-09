@@ -35,11 +35,6 @@ const carrito = JSON.parse(localStorage.getItem('carrito')) || [] // operador OR
 
 function sumarAlCarrito(id) {
     const producto = catalogo.find(producto => producto.id == id)
-    carrito.push(producto)
-}
-
-function sumarAlCarrito(id) {
-    const producto = catalogo.find(producto => producto.id == id)
 
     if (carrito.find(producto => producto.id == id)) {
         const producto = carrito.find(producto => producto.id == id)
